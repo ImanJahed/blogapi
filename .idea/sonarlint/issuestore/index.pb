@@ -15,7 +15,3 @@ A
 accounts/forms.py,4\2\423d51d4f9a16166c3e1046d2a92cb79899b60d0
 D
 posts/permissions.py,6\f\6f903135729595da83f3b3fef010fbdc85804234
-B
-config/settings.py,7\6\769aa6664d3e5c284cbfb95fd9848a351a2e4e2b
->
-config/urls.py,4\5\45b243d494ecd78f07818174452843086c64845d

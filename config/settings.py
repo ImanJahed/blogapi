@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "django.contrib.sites",
+
     # Third-party apps
     "rest_framework",
     "corsheaders",
@@ -45,6 +46,9 @@ INSTALLED_APPS = [
     "allauth.socialaccount",
     "dj_rest_auth",
     "dj_rest_auth.registration",
+    'drf_spectacular',
+
+
     # Local App
     'accounts.apps.AccountsConfig',
     'posts.apps.PostsConfig',
@@ -142,6 +146,8 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.SessionAuthentication",
         "rest_framework.authentication.TokenAuthentication",  # new
     ],
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+
 }
 
 CORS_ORIGIN_WHITELIST = [
@@ -154,3 +160,10 @@ CSRF_TRUST_ORIGIN = [
 ]
 SITE_ID = 1
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Blog API Project',
+    'DESCRIPTION': 'Simple API project for learning drf',
+    'VERSION': '1.0.0',
+
+}

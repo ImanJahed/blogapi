@@ -13,9 +13,5 @@ A
 posts/admin.py,4\b\4bbccf2ab3e2aa8024194b1bfe12a445ac49ff8c
 >
 posts/tests.py,6\3\63ca6b872bba94b33e84700225e95c1316c9514e
->
-config/urls.py,4\5\45b243d494ecd78f07818174452843086c64845d
 D
 posts/permissions.py,6\f\6f903135729595da83f3b3fef010fbdc85804234
-B
-config/settings.py,7\6\769aa6664d3e5c284cbfb95fd9848a351a2e4e2b
